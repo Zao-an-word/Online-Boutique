@@ -1,0 +1,14 @@
+{
+  "mode": "live",
+  "interval_seconds": 30,
+  "rounds": 741,
+  "total_rows": 47424,
+  "start_time": "2026-06-08T12:19:59.960742",
+  "end_time": "2026-06-08T10:20:27.384203+00:00",
+  "duration_minutes": 360.45706753730775,
+  "prometheus_url": "http://localhost:19090",
+  "metrics": [
+    "cpu_rate",
+    "memory_working_set"
+  ]
+}

@@ -32,7 +32,7 @@ class ExpConfig(Config):
     use_connected_z_q = True
     use_connected_z_p = True
 
-    # model parameters
+    # model parameters (exp#8: 379 train, 54 dim, boutique cpu/mem去噪)
     z_dim = 6
     rnn_cell = 'GRU'  # 'GRU', 'LSTM' or 'Basic'
     rnn_num_hidden = 128
@@ -40,7 +40,7 @@ class ExpConfig(Config):
     dense_dim = 256
     posterior_flow_type = 'nf'  # 'nf' or None
     nf_layers = 10  # for nf
-    max_epoch = 60
+    max_epoch = 80
     train_start = 0
     max_train_size = None  # `None` means full train set
     batch_size = 50
@@ -172,8 +172,13 @@ def main():
                                       step_num=int(abs(config.bf_search_max - config.bf_search_min) /
                                                    config.bf_search_step_size),
                                       display_freq=50)
-                    # get pot results
-                    pot_result = pot_eval(train_score, test_score, y_test[-len(test_score):], level=config.level)
+                    # get pot results (may fail on very small datasets)
+                    try:
+                        pot_result = pot_eval(train_score, test_score, y_test[-len(test_score):], level=config.level)
+                    except ValueError:
+                        pot_result = {'pot-f1': 0.0, 'pot-precision': 0.0, 'pot-recall': 0.0,
+                                      'pot-TP': 0, 'pot-TN': 0, 'pot-FP': 0, 'pot-FN': 0,
+                                      'pot-threshold': 0.0}
 
                     # output the results
                     best_valid_metrics.update({

@@ -1,0 +1,1382 @@
+[
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T06:28:43.643020+00:00",
+    "start_unix": 1780640923.64302,
+    "end": "2026-06-05T06:30:14.796194+00:00",
+    "end_unix": 1780641014.796194
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T06:32:15.680996+00:00",
+    "start_unix": 1780641135.680996,
+    "end": "2026-06-05T06:33:46.731438+00:00",
+    "end_unix": 1780641226.731438
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T06:35:47.691152+00:00",
+    "start_unix": 1780641347.691152,
+    "end": "2026-06-05T06:37:18.828948+00:00",
+    "end_unix": 1780641438.828948
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T06:39:19.808006+00:00",
+    "start_unix": 1780641559.808006,
+    "end": "2026-06-05T06:40:50.889953+00:00",
+    "end_unix": 1780641650.889953
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T06:42:52.009953+00:00",
+    "start_unix": 1780641772.009953,
+    "end": "2026-06-05T06:44:23.117497+00:00",
+    "end_unix": 1780641863.117497
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T06:46:24.106006+00:00",
+    "start_unix": 1780641984.106006,
+    "end": "2026-06-05T06:46:39.648651+00:00",
+    "end_unix": 1780641999.648651
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T06:48:40.643906+00:00",
+    "start_unix": 1780642120.643906,
+    "end": "2026-06-05T06:48:56.145334+00:00",
+    "end_unix": 1780642136.145334
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T06:50:57.122393+00:00",
+    "start_unix": 1780642257.122393,
+    "end": "2026-06-05T06:51:12.655315+00:00",
+    "end_unix": 1780642272.655315
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T06:53:13.613323+00:00",
+    "start_unix": 1780642393.613323,
+    "end": "2026-06-05T06:54:14.502876+00:00",
+    "end_unix": 1780642454.502876
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T06:56:15.620138+00:00",
+    "start_unix": 1780642575.620138,
+    "end": "2026-06-05T06:57:16.413312+00:00",
+    "end_unix": 1780642636.413312
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T06:59:17.524499+00:00",
+    "start_unix": 1780642757.524499,
+    "end": "2026-06-05T07:00:48.702405+00:00",
+    "end_unix": 1780642848.702405
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:02:49.667950+00:00",
+    "start_unix": 1780642969.66795,
+    "end": "2026-06-05T07:04:20.738589+00:00",
+    "end_unix": 1780643060.738589
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:06:21.464761+00:00",
+    "start_unix": 1780643181.464761,
+    "end": "2026-06-05T07:07:52.372923+00:00",
+    "end_unix": 1780643272.372923
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:09:53.094921+00:00",
+    "start_unix": 1780643393.094921,
+    "end": "2026-06-05T07:11:23.934562+00:00",
+    "end_unix": 1780643483.934562
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:13:24.579269+00:00",
+    "start_unix": 1780643604.579269,
+    "end": "2026-06-05T07:14:55.410760+00:00",
+    "end_unix": 1780643695.41076
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T07:16:56.292864+00:00",
+    "start_unix": 1780643816.292864,
+    "end": "2026-06-05T07:17:11.768631+00:00",
+    "end_unix": 1780643831.768631
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T07:19:12.653570+00:00",
+    "start_unix": 1780643952.65357,
+    "end": "2026-06-05T07:19:28.226571+00:00",
+    "end_unix": 1780643968.226571
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T07:21:29.144550+00:00",
+    "start_unix": 1780644089.14455,
+    "end": "2026-06-05T07:21:44.619915+00:00",
+    "end_unix": 1780644104.619915
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T07:23:45.753342+00:00",
+    "start_unix": 1780644225.753342,
+    "end": "2026-06-05T07:24:46.722937+00:00",
+    "end_unix": 1780644286.722937
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T07:26:47.612494+00:00",
+    "start_unix": 1780644407.612494,
+    "end": "2026-06-05T07:27:48.358095+00:00",
+    "end_unix": 1780644468.358095
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:29:49.192705+00:00",
+    "start_unix": 1780644589.192705,
+    "end": "2026-06-05T07:31:20.133609+00:00",
+    "end_unix": 1780644680.133609
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:33:21.016354+00:00",
+    "start_unix": 1780644801.016354,
+    "end": "2026-06-05T07:34:51.973427+00:00",
+    "end_unix": 1780644891.973427
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:36:52.812145+00:00",
+    "start_unix": 1780645012.812145,
+    "end": "2026-06-05T07:38:23.822600+00:00",
+    "end_unix": 1780645103.8226
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:40:24.613549+00:00",
+    "start_unix": 1780645224.613549,
+    "end": "2026-06-05T07:41:55.569442+00:00",
+    "end_unix": 1780645315.569442
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T07:43:56.586500+00:00",
+    "start_unix": 1780645436.5865,
+    "end": "2026-06-05T07:45:27.542521+00:00",
+    "end_unix": 1780645527.542521
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T07:47:28.526120+00:00",
+    "start_unix": 1780645648.52612,
+    "end": "2026-06-05T07:47:43.983590+00:00",
+    "end_unix": 1780645663.98359
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T07:49:44.934434+00:00",
+    "start_unix": 1780645784.934434,
+    "end": "2026-06-05T07:50:00.370133+00:00",
+    "end_unix": 1780645800.370133
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T07:52:01.276075+00:00",
+    "start_unix": 1780645921.276075,
+    "end": "2026-06-05T07:52:16.692491+00:00",
+    "end_unix": 1780645936.692491
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T07:54:17.697159+00:00",
+    "start_unix": 1780646057.697159,
+    "end": "2026-06-05T07:55:18.492039+00:00",
+    "end_unix": 1780646118.492039
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T07:57:19.510967+00:00",
+    "start_unix": 1780646239.510967,
+    "end": "2026-06-05T07:58:20.372667+00:00",
+    "end_unix": 1780646300.372667
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:00:21.276961+00:00",
+    "start_unix": 1780646421.276961,
+    "end": "2026-06-05T08:01:52.324889+00:00",
+    "end_unix": 1780646512.324889
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:03:53.277448+00:00",
+    "start_unix": 1780646633.277448,
+    "end": "2026-06-05T08:05:24.370609+00:00",
+    "end_unix": 1780646724.370609
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:07:25.384268+00:00",
+    "start_unix": 1780646845.384268,
+    "end": "2026-06-05T08:08:56.415130+00:00",
+    "end_unix": 1780646936.41513
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:10:57.323308+00:00",
+    "start_unix": 1780647057.323308,
+    "end": "2026-06-05T08:12:28.363813+00:00",
+    "end_unix": 1780647148.363813
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:14:29.464270+00:00",
+    "start_unix": 1780647269.46427,
+    "end": "2026-06-05T08:16:00.470334+00:00",
+    "end_unix": 1780647360.470334
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T08:18:01.385125+00:00",
+    "start_unix": 1780647481.385125,
+    "end": "2026-06-05T08:18:16.846671+00:00",
+    "end_unix": 1780647496.846671
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T08:20:17.844416+00:00",
+    "start_unix": 1780647617.844416,
+    "end": "2026-06-05T08:20:33.288084+00:00",
+    "end_unix": 1780647633.288084
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T08:22:34.218842+00:00",
+    "start_unix": 1780647754.218842,
+    "end": "2026-06-05T08:22:49.676848+00:00",
+    "end_unix": 1780647769.676848
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T08:24:50.660232+00:00",
+    "start_unix": 1780647890.660232,
+    "end": "2026-06-05T08:25:51.482423+00:00",
+    "end_unix": 1780647951.482423
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T08:27:52.422472+00:00",
+    "start_unix": 1780648072.422472,
+    "end": "2026-06-05T08:28:53.361666+00:00",
+    "end_unix": 1780648133.361666
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:30:54.196645+00:00",
+    "start_unix": 1780648254.196645,
+    "end": "2026-06-05T08:32:25.148275+00:00",
+    "end_unix": 1780648345.148275
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:34:26.151540+00:00",
+    "start_unix": 1780648466.15154,
+    "end": "2026-06-05T08:35:57.192724+00:00",
+    "end_unix": 1780648557.192724
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:37:58.121921+00:00",
+    "start_unix": 1780648678.121921,
+    "end": "2026-06-05T08:39:29.160440+00:00",
+    "end_unix": 1780648769.16044
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:41:30.005874+00:00",
+    "start_unix": 1780648890.005874,
+    "end": "2026-06-05T08:43:01.059298+00:00",
+    "end_unix": 1780648981.059298
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T08:45:02.006389+00:00",
+    "start_unix": 1780649102.006389,
+    "end": "2026-06-05T08:46:33.078408+00:00",
+    "end_unix": 1780649193.078408
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T08:48:33.986290+00:00",
+    "start_unix": 1780649313.98629,
+    "end": "2026-06-05T08:48:49.461610+00:00",
+    "end_unix": 1780649329.46161
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T08:50:50.404440+00:00",
+    "start_unix": 1780649450.40444,
+    "end": "2026-06-05T08:51:05.855562+00:00",
+    "end_unix": 1780649465.855562
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T08:53:06.837060+00:00",
+    "start_unix": 1780649586.83706,
+    "end": "2026-06-05T08:53:22.312665+00:00",
+    "end_unix": 1780649602.312665
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T08:55:23.358386+00:00",
+    "start_unix": 1780649723.358386,
+    "end": "2026-06-05T08:56:24.216221+00:00",
+    "end_unix": 1780649784.216221
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T08:58:25.237195+00:00",
+    "start_unix": 1780649905.237195,
+    "end": "2026-06-05T08:59:26.128328+00:00",
+    "end_unix": 1780649966.128328
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:01:27.292160+00:00",
+    "start_unix": 1780650087.29216,
+    "end": "2026-06-05T09:02:58.401654+00:00",
+    "end_unix": 1780650178.401654
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:04:59.351600+00:00",
+    "start_unix": 1780650299.3516,
+    "end": "2026-06-05T09:06:30.434624+00:00",
+    "end_unix": 1780650390.434624
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:08:31.436925+00:00",
+    "start_unix": 1780650511.436925,
+    "end": "2026-06-05T09:10:02.504518+00:00",
+    "end_unix": 1780650602.504518
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:12:03.493261+00:00",
+    "start_unix": 1780650723.493261,
+    "end": "2026-06-05T09:13:34.564815+00:00",
+    "end_unix": 1780650814.564815
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:15:35.478817+00:00",
+    "start_unix": 1780650935.478817,
+    "end": "2026-06-05T09:17:06.534843+00:00",
+    "end_unix": 1780651026.534843
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T09:19:07.521487+00:00",
+    "start_unix": 1780651147.521487,
+    "end": "2026-06-05T09:19:22.987721+00:00",
+    "end_unix": 1780651162.987721
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T09:21:23.952406+00:00",
+    "start_unix": 1780651283.952406,
+    "end": "2026-06-05T09:21:39.421575+00:00",
+    "end_unix": 1780651299.421575
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T09:23:40.444365+00:00",
+    "start_unix": 1780651420.444365,
+    "end": "2026-06-05T09:23:55.914203+00:00",
+    "end_unix": 1780651435.914203
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T09:25:56.868484+00:00",
+    "start_unix": 1780651556.868484,
+    "end": "2026-06-05T09:26:57.712172+00:00",
+    "end_unix": 1780651617.712172
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T09:28:58.669754+00:00",
+    "start_unix": 1780651738.669754,
+    "end": "2026-06-05T09:29:59.511988+00:00",
+    "end_unix": 1780651799.511988
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:32:00.512108+00:00",
+    "start_unix": 1780651920.512108,
+    "end": "2026-06-05T09:33:31.605585+00:00",
+    "end_unix": 1780652011.605585
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:35:32.527183+00:00",
+    "start_unix": 1780652132.527183,
+    "end": "2026-06-05T09:37:03.600139+00:00",
+    "end_unix": 1780652223.600139
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:39:04.606251+00:00",
+    "start_unix": 1780652344.606251,
+    "end": "2026-06-05T09:40:35.696203+00:00",
+    "end_unix": 1780652435.696203
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:42:36.707265+00:00",
+    "start_unix": 1780652556.707265,
+    "end": "2026-06-05T09:44:07.722487+00:00",
+    "end_unix": 1780652647.722487
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T09:46:08.700678+00:00",
+    "start_unix": 1780652768.700678,
+    "end": "2026-06-05T09:47:39.726054+00:00",
+    "end_unix": 1780652859.726054
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T09:49:40.715509+00:00",
+    "start_unix": 1780652980.715509,
+    "end": "2026-06-05T09:49:56.174897+00:00",
+    "end_unix": 1780652996.174897
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T09:51:57.158957+00:00",
+    "start_unix": 1780653117.158957,
+    "end": "2026-06-05T09:52:12.593213+00:00",
+    "end_unix": 1780653132.593213
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T09:54:13.622542+00:00",
+    "start_unix": 1780653253.622542,
+    "end": "2026-06-05T09:54:29.047704+00:00",
+    "end_unix": 1780653269.047704
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T09:56:30.031054+00:00",
+    "start_unix": 1780653390.031054,
+    "end": "2026-06-05T09:57:30.843015+00:00",
+    "end_unix": 1780653450.843015
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T09:59:31.854187+00:00",
+    "start_unix": 1780653571.854187,
+    "end": "2026-06-05T10:00:32.762766+00:00",
+    "end_unix": 1780653632.762766
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:02:33.774780+00:00",
+    "start_unix": 1780653753.77478,
+    "end": "2026-06-05T10:04:04.889921+00:00",
+    "end_unix": 1780653844.889921
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:06:05.936116+00:00",
+    "start_unix": 1780653965.936116,
+    "end": "2026-06-05T10:07:37.073884+00:00",
+    "end_unix": 1780654057.073884
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:09:38.046944+00:00",
+    "start_unix": 1780654178.046944,
+    "end": "2026-06-05T10:11:09.136992+00:00",
+    "end_unix": 1780654269.136992
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:13:10.148576+00:00",
+    "start_unix": 1780654390.148576,
+    "end": "2026-06-05T10:14:41.189317+00:00",
+    "end_unix": 1780654481.189317
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:16:42.061168+00:00",
+    "start_unix": 1780654602.061168,
+    "end": "2026-06-05T10:18:13.026782+00:00",
+    "end_unix": 1780654693.026782
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T10:20:13.955647+00:00",
+    "start_unix": 1780654813.955647,
+    "end": "2026-06-05T10:20:29.505129+00:00",
+    "end_unix": 1780654829.505129
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T10:22:30.557232+00:00",
+    "start_unix": 1780654950.557232,
+    "end": "2026-06-05T10:22:46.019885+00:00",
+    "end_unix": 1780654966.019885
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T10:24:46.923069+00:00",
+    "start_unix": 1780655086.923069,
+    "end": "2026-06-05T10:25:02.383325+00:00",
+    "end_unix": 1780655102.383325
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T10:27:03.361050+00:00",
+    "start_unix": 1780655223.36105,
+    "end": "2026-06-05T10:28:04.223529+00:00",
+    "end_unix": 1780655284.223529
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T10:30:05.130744+00:00",
+    "start_unix": 1780655405.130744,
+    "end": "2026-06-05T10:31:05.951801+00:00",
+    "end_unix": 1780655465.951801
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:33:06.878631+00:00",
+    "start_unix": 1780655586.878631,
+    "end": "2026-06-05T10:34:37.906206+00:00",
+    "end_unix": 1780655677.906206
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:36:38.865832+00:00",
+    "start_unix": 1780655798.865832,
+    "end": "2026-06-05T10:38:09.966079+00:00",
+    "end_unix": 1780655889.966079
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:40:10.846237+00:00",
+    "start_unix": 1780656010.846237,
+    "end": "2026-06-05T10:41:41.921082+00:00",
+    "end_unix": 1780656101.921082
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:43:42.871188+00:00",
+    "start_unix": 1780656222.871188,
+    "end": "2026-06-05T10:45:13.871596+00:00",
+    "end_unix": 1780656313.871596
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T10:47:14.739237+00:00",
+    "start_unix": 1780656434.739237,
+    "end": "2026-06-05T10:48:45.857677+00:00",
+    "end_unix": 1780656525.857677
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T10:50:46.824068+00:00",
+    "start_unix": 1780656646.824068,
+    "end": "2026-06-05T10:51:02.282226+00:00",
+    "end_unix": 1780656662.282226
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T10:53:03.253811+00:00",
+    "start_unix": 1780656783.253811,
+    "end": "2026-06-05T10:53:18.722566+00:00",
+    "end_unix": 1780656798.722566
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T10:55:19.622295+00:00",
+    "start_unix": 1780656919.622295,
+    "end": "2026-06-05T10:55:35.078617+00:00",
+    "end_unix": 1780656935.078617
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T10:57:36.028606+00:00",
+    "start_unix": 1780657056.028606,
+    "end": "2026-06-05T10:58:36.918218+00:00",
+    "end_unix": 1780657116.918218
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T11:00:37.892109+00:00",
+    "start_unix": 1780657237.892109,
+    "end": "2026-06-05T11:01:38.706956+00:00",
+    "end_unix": 1780657298.706956
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:03:39.673777+00:00",
+    "start_unix": 1780657419.673777,
+    "end": "2026-06-05T11:05:10.685594+00:00",
+    "end_unix": 1780657510.685594
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:07:11.626815+00:00",
+    "start_unix": 1780657631.626815,
+    "end": "2026-06-05T11:08:42.625970+00:00",
+    "end_unix": 1780657722.62597
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:10:43.516967+00:00",
+    "start_unix": 1780657843.516967,
+    "end": "2026-06-05T11:12:14.600667+00:00",
+    "end_unix": 1780657934.600667
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:14:15.637712+00:00",
+    "start_unix": 1780658055.637712,
+    "end": "2026-06-05T11:15:46.721912+00:00",
+    "end_unix": 1780658146.721912
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:17:47.685639+00:00",
+    "start_unix": 1780658267.685639,
+    "end": "2026-06-05T11:19:18.756942+00:00",
+    "end_unix": 1780658358.756942
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T11:21:19.733628+00:00",
+    "start_unix": 1780658479.733628,
+    "end": "2026-06-05T11:21:35.175806+00:00",
+    "end_unix": 1780658495.175806
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T11:23:36.100816+00:00",
+    "start_unix": 1780658616.100816,
+    "end": "2026-06-05T11:23:51.540840+00:00",
+    "end_unix": 1780658631.54084
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T11:25:52.403634+00:00",
+    "start_unix": 1780658752.403634,
+    "end": "2026-06-05T11:26:08.003263+00:00",
+    "end_unix": 1780658768.003263
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T11:28:09.007192+00:00",
+    "start_unix": 1780658889.007192,
+    "end": "2026-06-05T11:29:09.971757+00:00",
+    "end_unix": 1780658949.971757
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T11:31:10.871639+00:00",
+    "start_unix": 1780659070.871639,
+    "end": "2026-06-05T11:32:11.674551+00:00",
+    "end_unix": 1780659131.674551
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:34:12.601700+00:00",
+    "start_unix": 1780659252.6017,
+    "end": "2026-06-05T11:35:43.629909+00:00",
+    "end_unix": 1780659343.629909
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:37:44.460776+00:00",
+    "start_unix": 1780659464.460776,
+    "end": "2026-06-05T11:39:15.471350+00:00",
+    "end_unix": 1780659555.47135
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:41:16.328045+00:00",
+    "start_unix": 1780659676.328045,
+    "end": "2026-06-05T11:42:47.347526+00:00",
+    "end_unix": 1780659767.347526
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:44:48.104207+00:00",
+    "start_unix": 1780659888.104207,
+    "end": "2026-06-05T11:46:19.307385+00:00",
+    "end_unix": 1780659979.307385
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T11:48:20.349905+00:00",
+    "start_unix": 1780660100.349905,
+    "end": "2026-06-05T11:49:51.500121+00:00",
+    "end_unix": 1780660191.500121
+  },
+  {
+    "fault_id": "kill-checkout",
+    "fault_name": "PodKill-checkoutservice",
+    "affected_pods": [
+      "checkoutservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T11:51:52.290873+00:00",
+    "start_unix": 1780660312.290873,
+    "end": "2026-06-05T11:52:07.805202+00:00",
+    "end_unix": 1780660327.805202
+  },
+  {
+    "fault_id": "kill-front",
+    "fault_name": "PodKill-frontend",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T11:54:08.748302+00:00",
+    "start_unix": 1780660448.748302,
+    "end": "2026-06-05T11:54:24.295841+00:00",
+    "end_unix": 1780660464.295841
+  },
+  {
+    "fault_id": "kill-prod",
+    "fault_name": "PodKill-productcatalogservice",
+    "affected_pods": [
+      "productcatalogservice"
+    ],
+    "action": "pod-kill",
+    "start": "2026-06-05T11:56:25.205268+00:00",
+    "start_unix": 1780660585.205268,
+    "end": "2026-06-05T11:56:40.699105+00:00",
+    "end_unix": 1780660600.699105
+  },
+  {
+    "fault_id": "fail-ship",
+    "fault_name": "PodFailure-shippingservice(60s)",
+    "affected_pods": [
+      "shippingservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T11:58:41.622635+00:00",
+    "start_unix": 1780660721.622635,
+    "end": "2026-06-05T11:59:42.508080+00:00",
+    "end_unix": 1780660782.50808
+  },
+  {
+    "fault_id": "fail-email",
+    "fault_name": "PodFailure-emailservice(60s)",
+    "affected_pods": [
+      "emailservice"
+    ],
+    "action": "pod-failure",
+    "start": "2026-06-05T12:01:43.399711+00:00",
+    "start_unix": 1780660903.399711,
+    "end": "2026-06-05T12:02:44.286580+00:00",
+    "end_unix": 1780660964.28658
+  },
+  {
+    "fault_id": "cpu-cart",
+    "fault_name": "CPU压力-cartservice(2核)",
+    "affected_pods": [
+      "cartservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T12:04:45.260391+00:00",
+    "start_unix": 1780661085.260391,
+    "end": "2026-06-05T12:06:16.395165+00:00",
+    "end_unix": 1780661176.395165
+  },
+  {
+    "fault_id": "cpu-curr",
+    "fault_name": "CPU压力-currencyservice(2核)",
+    "affected_pods": [
+      "currencyservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T12:08:17.331317+00:00",
+    "start_unix": 1780661297.331317,
+    "end": "2026-06-05T12:09:48.382494+00:00",
+    "end_unix": 1780661388.382494
+  },
+  {
+    "fault_id": "cpu-front",
+    "fault_name": "CPU压力-frontend(2核)",
+    "affected_pods": [
+      "frontend"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T12:11:49.213338+00:00",
+    "start_unix": 1780661509.213338,
+    "end": "2026-06-05T12:13:20.312963+00:00",
+    "end_unix": 1780661600.312963
+  },
+  {
+    "fault_id": "mem-reco",
+    "fault_name": "内存压力-recommendationservice(512MB)",
+    "affected_pods": [
+      "recommendationservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T12:15:21.154475+00:00",
+    "start_unix": 1780661721.154475,
+    "end": "2026-06-05T12:16:52.124787+00:00",
+    "end_unix": 1780661812.124787
+  },
+  {
+    "fault_id": "mem-pay",
+    "fault_name": "内存压力-paymentservice(512MB)",
+    "affected_pods": [
+      "paymentservice"
+    ],
+    "action": "stresschaos",
+    "start": "2026-06-05T12:18:52.897090+00:00",
+    "start_unix": 1780661932.89709,
+    "end": "2026-06-05T12:20:15.921900+00:00",
+    "end_unix": 1780662015.9219
+  }
+]
